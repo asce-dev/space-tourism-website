@@ -2,19 +2,20 @@
 
 @font-face {
   font-family: "Bellefair";
-  src: url("/fonts/Bellefair-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Bellefair/Bellefair-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Barlow";
-  src: url("/fonts/Barlow-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Barlow/Barlow-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "BarlowCondensed";
-  src: url("/fonts/BarlowCondensed-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Barlow/BarlowCondensed-Regular.ttf")
+    format("truetype");
   font-weight: 400;
 }
 
