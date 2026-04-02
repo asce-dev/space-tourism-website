@@ -24,16 +24,18 @@ function App() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center"
+      className="bg-cover bg-center"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/destination" element={<Destination />} />
-        <Route path="/crew" element={<Crew />} />
-        <Route path="/technology" element={<Technology />} />
-      </Routes>
+      <div className="h-screen flex flex-col max-w-(--app-max-width) mx-auto">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/destination" element={<Destination />} />
+          <Route path="/crew" element={<Crew />} />
+          <Route path="/technology" element={<Technology />} />
+        </Routes>
+      </div>
     </div>
   );
 }
