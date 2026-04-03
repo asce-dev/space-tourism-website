@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="flex items-end max-w-[1110px] m-1600 mx-auto h-full">
+    <div className="flex items-end max-w-[1110px] my-1600 mx-auto h-full">
       <div className="flex w-full gap-auto">
-        <div className="w-full gap-300">
+        <div className="flex flex-col w-full gap-300">
           <div className="text-preset-5 text-blue-300 uppercase">
             So, you want to travel to
           </div>
