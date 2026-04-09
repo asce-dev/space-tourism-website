@@ -3,6 +3,7 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 const buttonVariants = {
   primary:
     "inline-flex text-preset-8 gap-150 border-b-3 uppercase border-white/0 hover:border-white/50",
+  dotIndicator: "w-[15px] h-[15px] rounded-full bg-white/17 hover:bg-white/50",
 } as const;
 
 type ButtonVariant = keyof typeof buttonVariants;
@@ -10,7 +11,7 @@ type ButtonVariant = keyof typeof buttonVariants;
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: ButtonVariant;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 export default function Button({

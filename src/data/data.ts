@@ -21,14 +21,14 @@ export type Destination = {
   travel: string;
 };
 
-type CrewMember = {
+export type CrewMember = {
   name: string;
   image: string;
   role: string;
   bio: string;
 };
 
-type TechnologyItem = {
+export type TechnologyItem = {
   name: string;
   images: {
     portrait: string;
