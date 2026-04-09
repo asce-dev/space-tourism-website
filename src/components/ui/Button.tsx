@@ -2,9 +2,7 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 const buttonVariants = {
   primary:
-    "h-1200 inline-flex items-center text-preset-8 gap-150 border-b-3 uppercase border-white/0 hover:border-white/50",
-  secondary:
-    "h-300 inline-flex items-center text-preset-8 gap-150border-b-3 border-white/0 hover:border-white/50",
+    "inline-flex text-preset-8 gap-150 border-b-3 uppercase border-white/0 hover:border-white/50",
 } as const;
 
 type ButtonVariant = keyof typeof buttonVariants;

@@ -18,7 +18,10 @@ export default function NavItem({
 
   return (
     <Link to={path}>
-      <Button variant="primary" className={isActive ? "!border-white/100" : ""}>
+      <Button
+        variant="primary"
+        className={`h-1200 items-center ${isActive ? "!border-white/100" : ""}`}
+      >
         <div className="font-bold">{formattedIndex}</div>
         {label}
       </Button>

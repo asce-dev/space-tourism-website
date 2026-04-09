@@ -13,7 +13,7 @@ import ImageSpaceportLandscape from "../assets/technology/image-spaceport-landsc
 import ImageSpaceCapsulePortrait from "../assets/technology/image-space-capsule-portrait.jpg";
 import ImageSpaceCapsuleLandscape from "../assets/technology/image-space-capsule-landscape.jpg";
 
-type Destination = {
+export type Destination = {
   name: string;
   image: string;
   description: string;
