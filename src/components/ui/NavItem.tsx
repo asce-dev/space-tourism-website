@@ -9,6 +9,7 @@ type NavItemProps = {
   index: number;
   isActive?: boolean;
   variant?: NavItemVariant;
+  onClick?: () => void;
 };
 
 export default function NavItem({
@@ -17,6 +18,7 @@ export default function NavItem({
   index,
   isActive = false,
   variant = "navbar",
+  onClick,
 }: NavItemProps) {
   const formattedIndex = index.toString().padStart(2, "0");
 
@@ -37,6 +39,7 @@ export default function NavItem({
         <Button
           variant="primary"
           className={`text-preset-8-desktop !border-b-0 w-full ${isActive ? "border-r-3 !border-r-white/100" : ""}`}
+          onClick={onClick}
         >
           <div className="font-bold">{formattedIndex}</div>
           {label}

@@ -67,6 +67,7 @@ export default function Navigation() {
                   index={index}
                   isActive={location.pathname === item.path}
                   variant="sidebar"
+                  onClick={() => setIsMenuOpen(false)}
                 />
               ))}
             </div>
