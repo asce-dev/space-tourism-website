@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { destinations, type Destination } from "../data/data";
 import Button from "./ui/Button";
+import SectionHeader from "./ui/SectionHeader";
 
 export default function Destination() {
   const [currentDestination, setCurrentDestination] = useState<Destination>(
@@ -9,10 +10,7 @@ export default function Destination() {
 
   return (
     <div className="flex flex-1 flex-col p-300 w-full max-w-[1110px] gap-300 mx-auto md:p-500 lg:my-600 lg:p-0">
-      <div className="flex justify-center gap-300 md:justify-start text-preset-5 lg:text-preset-5-desktop">
-        <div className="text-white/25 uppercase font-bold">01</div>
-        <div className="uppercase">PICK YOUR DESTINATION</div>
-      </div>
+      <SectionHeader number={1} sectionTitle={"pick your destination"} />
       <div className="flex flex-col flex-1 w-full gap-400 lg:flex-row">
         <div className="flex flex-1 w-full items-center justify-center basis-0">
           <img
