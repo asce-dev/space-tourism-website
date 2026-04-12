@@ -6,7 +6,7 @@ const buttonVariants = {
   dotIndicator:
     "w-[10px] h-[10px] lg:w-[15px] lg:h-[15px] rounded-full bg-white/17 hover:bg-white/50",
   numberIndicator:
-    "flex items-center justify-center text-preset-4 text-white h-1000 w-1000 rounded-full border-1 border-white/25 hover:border-white/100",
+    "flex items-center justify-center text-preset-4 text-white h-500 w-500 rounded-full border-1 border-white/25 hover:border-white/100 lg:h-1000 lg:w-1000",
 } as const;
 
 type ButtonVariant = keyof typeof buttonVariants;
