@@ -1,4 +1,4 @@
-# Frontend Mentor - Space tourism website solution
+# Space Tourism Website
 
 ## Table of contents
 
