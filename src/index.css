@@ -161,3 +161,16 @@
 @utility text-preset-9-desktop {
   font-size: 1.125rem;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@utility animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}

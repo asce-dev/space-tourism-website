@@ -25,8 +25,10 @@ export default function Home() {
               className="text-preset-4 text-blue-900 uppercase 
                 bg-white rounded-full h-[144px] w-[144px] md:h-[272px] md:w-[272px] 
                 flex items-center justify-center 
+                outline-0 outline-white/50
                 hover:outline-[88px] hover:outline-white/10 hover:text-blue-900/50
                 md:text-preset-4-desktop
+                transition-all duration-500
               "
             >
               EXPLORE
