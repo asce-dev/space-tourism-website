@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "./Button";
-import FormatNumber from "../utils/formatNumber";
+import FormatNumber from "../../utils/FormatNumber";
 
 type NavItemVariant = "navbar" | "sidebar";
 

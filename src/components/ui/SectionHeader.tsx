@@ -1,4 +1,4 @@
-import FormatNumber from "../utils/formatNumber";
+import FormatNumber from "../../utils/FormatNumber";
 
 type SectionHeaderProps = {
   number: number;
